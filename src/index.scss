@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$body-color: black;
+
+body {
+  width: 1200px;
+  height: 100vh;
+  color: $body-color;
+  background-color: white;
+}
+.Grid {
+  border: 1px solid #d9dddd;
+}
+
+.GridItem {
+  // padding: 10px 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  span {
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+  }
+}

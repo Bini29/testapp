@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "vendor": "My Company",
   "type": "web",
-  "main": "public/index.html",
+  "main": "dist/index.html",
   "title": "testapp",
   "icon": "public/icon.png",
   "largeIcon": "public/largeIcon.png"
