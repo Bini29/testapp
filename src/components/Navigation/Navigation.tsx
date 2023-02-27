@@ -1,9 +1,9 @@
 import React from "react";
-// import style from "./Navigation.module.scss";
+import style from "./Navigation.module.scss";
 
 const Navigation = () => {
   return (
-    <div>
+    <div className={style.nav}>
       <button>home</button>
       <button>search</button>
       <button>favorites</button>

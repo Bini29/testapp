@@ -10,7 +10,7 @@ export interface IChanel {
 }
 
 export class ChannelsStore {
-  @observable channels: IChanel[] = [];
+  channels: IChanel[] = [];
 
   constructor() {
     makeAutoObservable(this);
